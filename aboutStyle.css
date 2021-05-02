@@ -1,0 +1,141 @@
+.about-title{
+  padding-top: 10px;
+  font-size: 50px;
+  color: Black;
+  font-weight: bold;
+  font-family: "fantasy",sans-serif;
+  text-align:center;
+}
+.TopLine{
+  border-color: black;
+  border-width: 3px 0 0 0;
+  width: 70px;
+}
+.header-icons{
+  display: flex;
+
+	justify-content: center;
+}
+.fast-icon{
+  padding-left: 80px;
+  padding-right: 80px;
+    color: mediumaquamarine;
+}
+.securty-icon{
+  padding-left: 80px;
+  padding-right: 80px;
+    color: mediumaquamarine;
+}
+.idea-icon{
+  padding-left: 80px;
+  padding-right: 80px;
+    color: mediumaquamarine;
+}
+.heart-icon{
+  padding-left: 80px;
+  padding-right: 80px;
+    color: mediumaquamarine;
+}
+.icon-box{
+  color: Black;
+  font-weight: bold;
+  font-family: "fantasy",sans-serif;
+  text-align:center;
+}
+.coment-title{
+  font-size: 29px;
+}
+.icons-coment{
+  color: gray;
+}
+.my-photo{
+  /* 棒グラフの上の空白も連動 */
+  height: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+.graph{
+
+}
+.middle-topic{
+
+}
+
+
+
+
+.graph-cont{
+  width: calc(100% - 40px);
+    /* 棒の横幅 */
+  width: 100%;
+  /* 棒の横幅 */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bar{
+  height: 30px;
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.bar::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 0;
+  z-index: -2;
+  background: #ecf0f1;
+}
+.bar::after{
+  content: '';
+  background: #2ecc71;
+  height: 30px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: bar-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.bar1::after{
+  max-width: 60%;
+}
+.bar2::after{
+  max-width: 72%;
+}
+.bar3::after{
+  max-width: 47%;
+}
+.bar4::after{
+  max-width: 39%;
+}
+.bar5::after{
+  max-width: 28%;
+}
+.bar6::after{
+  max-width: 66%;
+}
+.bar7::after{
+  max-width: 33%;
+}
+.bar8::after{
+  max-width: 50%;
+}
+@-webkit-keyframes bar-before{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}

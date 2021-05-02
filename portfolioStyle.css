@@ -1,0 +1,16 @@
+.portfolio-top{
+  	color: Black;
+}
+.portfolio-title{
+  padding-top: 10px;
+  font-size: 50px;
+  color: Black;
+  font-weight: bold;
+  font-family: "fantasy",sans-serif;
+  text-align:center;
+}
+.TopLine{
+  border-color: black;
+  border-width: 3px 0 0 0;
+  width: 70px;
+}
